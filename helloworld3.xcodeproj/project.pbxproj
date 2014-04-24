@@ -10,6 +10,7 @@
 		5C7ED4C01909C6BB00D8CA5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7ED4BF1909C6BB00D8CA5D /* Foundation.framework */; };
 		5C7ED4C31909C6BB00D8CA5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7ED4C21909C6BB00D8CA5D /* main.m */; };
 		5C7ED4C71909C6BB00D8CA5D /* helloworld3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C7ED4C61909C6BB00D8CA5D /* helloworld3.1 */; };
+		5C7ED4CF1909CF0400D8CA5D /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7ED4CE1909CF0400D8CA5D /* console.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		5C7ED4C21909C6BB00D8CA5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5C7ED4C51909C6BB00D8CA5D /* helloworld3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "helloworld3-Prefix.pch"; sourceTree = "<group>"; };
 		5C7ED4C61909C6BB00D8CA5D /* helloworld3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = helloworld3.1; sourceTree = "<group>"; };
+		5C7ED4CD1909CEEF00D8CA5D /* console.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = console.h; sourceTree = "<group>"; };
+		5C7ED4CE1909CF0400D8CA5D /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = console.m; path = ../console.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,8 @@
 		5C7ED4C11909C6BB00D8CA5D /* helloworld3 */ = {
 			isa = PBXGroup;
 			children = (
+				5C7ED4CE1909CF0400D8CA5D /* console.m */,
+				5C7ED4CD1909CEEF00D8CA5D /* console.h */,
 				5C7ED4C21909C6BB00D8CA5D /* main.m */,
 				5C7ED4C61909C6BB00D8CA5D /* helloworld3.1 */,
 				5C7ED4C41909C6BB00D8CA5D /* Supporting Files */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C7ED4C31909C6BB00D8CA5D /* main.m in Sources */,
+				5C7ED4CF1909CF0400D8CA5D /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
